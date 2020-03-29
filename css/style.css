@@ -6,3 +6,74 @@ font-family: 'Cormorant', serif;
 font-family: 'Open Sans', sans-serif;
 
 */
+*{
+    font-family: Arial, serif;
+    font-size: 16px;
+}
+
+.wrap__all{
+ display: flex;
+ flex-direction: column;
+ max-width: 1280px;
+ margin: 0 auto;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #4a4a49;
+    padding: 10px 15px 30px;
+    
+
+}
+
+.header__item{
+    /*flex: 0 1 50%;*/
+}
+
+
+
+.photo{
+    text-align: center;
+    flex: 0 1 40%;
+}
+
+.photo__img{
+    width: 50%;
+    border-radius: 100%;
+    
+}
+
+.description{
+    flex: 0 1 60%;
+    align-self: center;
+    text-align: center;
+}
+
+.description__name{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 900;
+    color: #000;
+
+}
+
+.description__date,
+.description__diagnosis{
+    color: #4a4a49;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+
+}
+.description__diagnosis{
+    font-size: 46px;
+}
+        
+    
+.content{
+
+}
+
+.footer{
+    
+}
