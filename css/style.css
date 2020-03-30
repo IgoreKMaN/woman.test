@@ -71,7 +71,32 @@ header{
         
     
 .content{
+    padding: 20px 0 40px;
+}
 
+.photo__galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo__galery__item{
+    display: flex;
+    flex: 0 1 24%;
+    align-items: center;
+}
+
+.photo__galery__img{
+    width: 100%;
+}
+
+.fundraising{
+    display: flex;
+    flex-direction: column;
+}
+
+.in__total{
+    color: brown;
 }
 
 .footer{
