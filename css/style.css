@@ -93,11 +93,50 @@ header{
 .fundraising{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.in__total{
-    color: brown;
+.fundraising__title{
+    font-size: 50px;
+    font-weight: 800;
 }
+.count{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+   
+    
+}
+
+.in__total,
+.collected,
+.percent{
+    font-size: 40px;
+    font-weight: 900;
+    color: #4a4a49;
+}
+
+
+
+.in__total{
+    flex: 0 1 50%;
+}
+
+#in__total{
+
+}
+.collected{
+    flex: 0 1 50%;
+}
+#collected{}
+.percent{
+    flex: 0 1 auto;
+}
+#percentage__total{}
+
 
 .footer{
     
