@@ -263,3 +263,61 @@ footer{
         padding: 0 15px;
     }
 }
+
+@media (max-width: 767px){
+    .photo__galery{
+        justify-content: center;
+    }
+
+    .photo__galery__item{
+        flex: 0 1 auto;
+    }
+
+    .count__in__total, 
+    .count__collected, 
+    .count__percent{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 430px){
+    .description__name{
+        font-size: 45px;
+    }
+
+    .description__diagnosis{
+        font-size: 30px;
+    }
+
+    .document__img{
+        height: auto;
+        width: 100%;
+    }
+
+    .fundraising__title {
+        font-size: 38px;  
+    }
+
+    .requisites__item{
+        flex: 0 1 auto;
+    }
+
+    .count__in__total, 
+    .count__collected, 
+    .count__percent{
+        
+    }
+    .count__in__total, 
+    .count__collected{
+        flex: 0 1 auto;
+        padding:  7px 0;
+    }
+
+    .description__name{
+        font-size: 34px;
+    }
+
+    .requisites__item{
+        font-size: 18px;
+    } 
+}
