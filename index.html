@@ -9,8 +9,9 @@
     <title>Поможем Владу</title>
 
     <link rel="stylesheet" href="css/style.css">
-
-    
+       
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -51,24 +52,183 @@
                     Сбор средст на препорат Spinraza
                 </div>
                 <div class="count">
-                    <div class="in__total" id="in__total">700000</div>
-                    <div class="collected" id="collected">
-                        78200 
+                    <div class="count__in__total">
+                        Нужно собрать, $ 
+                        <div class="in__total" id="in__total">700000</div>
+                    </div>
+                    
+                    <div class="count__collected">
+                        Собрано, $
+                        <div class="collected" id="collected">
+                            78200 
+                        </div>
+                    </div>
+                    
+                    <div class="count__percent">
+                        Собрано
+                        <div class="percent" id="percentage__total"></div>
                     </div>
                     <div class="percent" id="percentage__total"></div>      
                 </div>
             </div>
             <div class="history">
-                Это Влад Касперович, он срочно нуждается в помощи! У него смертельная генетическая болезнь - тип SMA-2. Его мышцы ослабевают с каждым днем. Вскоре эта слабость достигнет мышц, которые он использует, чтобы глотать и дышать. Ребенок действительно умирает. Но его интеллект остается с ним. Влад не может ходить и сидит только с поддержкой. Есть лекарство, которое останавливает развитие SMA, но оно очень дорогое (500 000 евро за 4 инъекции плюс обследование). Это лекарство недоступно в Беларуси. У его родителей нет такой огромной суммы денег. Каждая помощь будет очень важна для мальчика! Родители не могут справиться самостоятельно! Мы просим вас помочь нам! Даже если вы передадите информацию в Интернете, вы дадите другим людям возможность помочь и приблизить мальчика к его мечте. 22 марта ему исполнилось 2 года. Он хочет жить, играть и учиться. Давайте дадим ему шанс жить и наслаждаться его жизнью. Что может быть важнее жизни !? Помогите ему, пожалуйста, и вы будете вознаграждены!!!
+                <div class="history__text">
+                    Это Влад Касперович, он срочно нуждается в помощи! 
+                    У него смертельная генетическая болезнь - тип SMA-2. 
+                    Его мышцы ослабевают с каждым днем. Вскоре эта слабость достигнет мышц, 
+                    которые он использует, чтобы глотать и дышать. Ребенок действительно умирает. 
+                    Но его интеллект остается с ним. Влад не может ходить и сидит только с поддержкой. 
+                    Есть лекарство, которое останавливает развитие SMA, но оно очень дорогое (500 000 евро за 4 инъекции плюс обследование). Это лекарство недоступно в Беларуси. У его родителей нет такой огромной суммы денег. Каждая помощь будет очень важна для мальчика! Родители не могут справиться самостоятельно! Мы просим вас помочь нам! Даже если вы передадите информацию в Интернете, вы дадите другим людям возможность помочь и приблизить мальчика к его мечте. 22 марта ему исполнилось 2 года. Он хочет жить, играть и учиться. Давайте дадим ему шанс жить и наслаждаться его жизнью. Что может быть важнее жизни !? Помогите ему, пожалуйста, и вы будете вознаграждены!!!
+                </div>
             </div>
         </div>
+
+        <div class="document">
+            <div class="all__document">
+                <div class="document_item">
+                    <img src="img/invalid_1_2.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/kollichestvo_kopiy.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/minzdrav_str_1.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/minzdrav_str_2.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/minzdrav_str_3.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/minzdrav_str_4.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/minzdrav_str_6.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/o_rozhdenii.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/otvet_s_Minzdrava.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/spravka-ot-vracha.jpg" alt="" class="document__img">
+                </div>
+                <div class="document_item">
+                    <img src="img/tsentr_polliativnoy_pomoschi.jpg" alt="" class="document__img">
+                </div>
+            </div>
+            <div class="arrow">
+                <div class="arrow__down">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="requisites">
+            <div class="requisites__title">Реквизиты для помощи Владу</div> 
+            <div class="requisites__all">
+
+                <div class="requisites__item">
+                    📞Пополнить БАЛАНС МТС
+                    +375 (29) 712-30-42 
+                    📞услуга МТС "поделись балансом"
+                    *363*375297123042*сумма#вызов
+                </div>
+                <div class="requisites__item">
+                    💳карта(Euro) Visa МТБанк
+                    4177 5311 0969 0159 до 03/23
+                    Имя пользователя: YAUHENI KASPIAROVICH
+                </div>
+                <div class="requisites__item">
+                    💳карта Visa Беларусбанк
+                    4255 2003 0976 6954 до 03/22
+                    Имя пользователя: TATSIANA KASPIAROVICH
+                </div>
+                <div class="requisites__item">
+                    💳карта Mastercard МТБанк
+                    5351 0410 8251 3472 до 04/22
+                    Имя пользователя: TATSIANA KASPIAROVICH
+                </div>
+                <div class="requisites__item">
+                    💳карта Web Money
+                    4142 9830 3265 1505 до 08/22
+                    Имя пользователя: TATSIANA KASPIAROVICH
+                </div>
+                <div class="requisites__item">
+                    💳 карта СБЕРБАНК России
+                    4817 7602 2794 5494 до 12/22
+                    Имя пользователя: Дарина Валерьевна
+                </div>
+                <div class="requisites__item">
+                    ✔️WebMoney: 
+                    Z468146611497 - доллары США
+                    E814165086888 - евро
+                    R596380694850 - российские рубли
+                    ✔️Яндекс Деньги: 4100 1797 8914 139
+                </div>
+                <div class="requisites__item">
+                    📌БЛАГОТВОРИТЕЛЬНЫЕ СЧЕТА в 
+                    ОАО "Беларусбанк"
+                    УНП 100325912
+                    МФО(БИК) AKBBBY2X
+                    Счета открыты на имя Касперович Татьяны Анатольевны
+                </div>
+                <div class="requisites__item">
+                    ✔️В белорусских рублях
+                    BY02 AKBB 3134 0000 0000 5007 0000
+                    ✔️В российских рублях
+                    BY58 AKBB 3134 3000 0000 4007 0000
+                    ✔️В евро
+                    BY12 AKBB 3134 2000 0000 4007 0000 (КОД валюты 978 евро)
+                    ✔️В долларах США
+                    BY63 AKBB 3134 1000 0000 4007 0000
+                </div> 
+
+            </div>
+            
+        </div>
+
         <footer>
-            3
+            <div class="social">
+                <div class="social__item">
+                    <a href="https://instagram.com/vl.adislav8158?igshid=akwrgivzzxy5" class="social__link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="https://invite.viber.com/?g2=AQA%2F4wYiU2QSzUpuuiJi5HWSdEpq3jAfMBOhX8ceS3cOqfwrFr%2BBjEefGWxJcaB5" class="social__link">
+                        <i class="fab fa-viber"></i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="https://vk.com/pomogite_vladyku" class="social__link">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="https://www.facebook.com/vladikSMA2018/" class="social__link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="https://ok.ru/profile/573524943684" class="social__link">
+                        <i class="fab fa-odnoklassniki"></i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="https://www.youtube.com/channel/UCiqHlhcV-12A9_OIgJwkI0w" class="social__link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
         </footer>        
     </div>
     <script src="script/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://use.fontawesome.com/c777c53d60.js"></script>
+    
+    
+    
 </body>
 
 </html>
