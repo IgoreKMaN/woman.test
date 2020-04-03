@@ -11,16 +11,15 @@ percentageTotal.innerText = percent;
 
 
 
-$(".arrow__down").click(function(){
-    if ($(".arrow__down").hasClass('arrow__reverce')){
-        $(".arrow__down").removeClass("arrow__reverce");
-        $(".all__document").removeClass("document__open");
-    }
-    else{
-        $(".arrow__down").addClass("arrow__reverce");
-        $(".all__document").addClass("document__open");
- 
-    }
+$(document).ready(function(){
+    $('.slider').slick({
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        centerMode: true
+        
+        
+    });
+
 });
-
-
