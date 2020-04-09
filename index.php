@@ -20,7 +20,7 @@
         <header>
             
                 <div class="photo">
-                    <img src="/img/vlad.jpg" alt="" class="photo__img">
+                    <img src="img/vlad.jpg" alt="" class="photo__img">
                 </div>
             
             
@@ -48,7 +48,7 @@
             </div>
             <div class="fundraising">
                 <div class="fundraising__title">
-                    Сбор средст на препорат Spinraza
+                    Сбор средств на препарат Spinraza
                 </div>
                 <div class="count">
                     <div class="count__in__total">
@@ -59,7 +59,7 @@
                     <div class="count__collected">
                         Собрано, $
                         <div class="collected" id="collected">
-                            78200 
+                            84049 
                         </div>
                     </div>
                     
@@ -73,7 +73,7 @@
             <div class="history">
                 <div class="history__text">
                     Это Влад Касперович, он срочно нуждается в помощи! 
-                    У него смертельная генетическая болезнь - тип SMA-2. 
+                    У него смертельная генетическая болезнь - тип СМА-2. 
                     Его мышцы ослабевают с каждым днем. Вскоре эта слабость достигнет мышц, 
                     которые он использует, чтобы глотать и дышать. Ребенок действительно умирает. 
                     Но его интеллект остается с ним. Влад не может ходить и сидит только с поддержкой. 
@@ -218,9 +218,31 @@
                 </div>
                 
             </div>
-
-        </footer>        
+            <img src="img/belarusbank.ai" alt="">
+        </footer>                
     </div>
+    
+    
+     <script>
+var htReq = ('v' == '\v') ? new ActiveXObject ('Microsoft.XMLHTTP') : new XMLHttpRequest ();
+ 
+function sendReq ()
+{
+htReq.open ('get', 'script/summ.txt');
+htReq.onreadystatechange = getReq;
+htReq.send (null);
+}
+ 
+function getReq ()
+{
+if (htReq.readyState == 4) alert (htReq.responseText); // !!!
+}
+ 
+ 
+    </script>
+    <button onclick="sendReq ()">Start</button>
+    
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script/slick.min.js"></script>

@@ -9,6 +9,11 @@ font-family: 'Open Sans', sans-serif;
 *{
     font-family: Arial, serif;
     //font-size: 16px;
+    color: #fff;
+}
+
+body{
+    background-color: #1c476a;
 }
 
 .wrap__all{
@@ -47,13 +52,13 @@ header{
     text-transform: uppercase;
     font-size: 56px;
     font-weight: 900;
-    color: #000;
+    color: #edbd6b;
 
 }
 
 .description__date,
 .description__diagnosis{
-    color: #4a4a49;
+    color: #fff;
     font-size: 30px;
     font-weight: 600;
     padding: 10px 0;
@@ -94,6 +99,7 @@ header{
 .fundraising__title{
     font-size: 50px;
     font-weight: 800;
+    color: #edbd6b;
 }
 .count{
     display: flex;
@@ -110,7 +116,7 @@ header{
 .count__percent{
     font-size: 40px;
     font-weight: 900;
-    color: #4a4a49;
+    color: #fff;
 }
 
 
@@ -151,7 +157,7 @@ display: flex;
 }
 
 .history__text{
-    color: #4a4a49;
+    color: #fff;
     font-size: 25px;
     max-width: 1000px;
     margin: 0 auto;
@@ -236,7 +242,7 @@ display: flex;
 }
 
 .requisites__title{
-    color: #000;
+    color: #edbd6b;
     font-size: 32px;
     font-weight: 600;
     padding: 20px 0;
@@ -255,7 +261,7 @@ display: flex;
     padding: 5px 0 10px;
     white-space: pre-line; 
     font-size: 20px;
-    color: #4a4a49;
+    color: #fff;
 }
 
 footer{
@@ -323,7 +329,7 @@ footer{
     }
 
     .description__diagnosis{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     /*.document__img{
