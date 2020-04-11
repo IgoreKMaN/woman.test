@@ -258,10 +258,34 @@ display: flex;
 
 .requisites__item{
     flex: 0 0 420px;
-    padding: 5px 0 10px;
+    padding: 5px 0 10px 32px;
     white-space: pre-line; 
     font-size: 20px;
     color: #fff;
+}
+
+.mts{
+    background: url("../img/logo/MTS.png") 0 24px / 30px no-repeat;
+}
+
+.mtbank{
+    background: url("../img/logo/mtbank.png") 0 24px / 30px no-repeat;
+}
+
+.belarusbank{
+    background: url("../img/logo/belarusbank.png") 0 24px / 30px no-repeat;
+}
+
+.webmoney{
+    background: url("../img/logo/webmoney.png") 0 24px / 30px no-repeat;
+}
+
+.sber{
+    background: url("../img/logo/sberbank.png") 0 24px / 30px no-repeat;
+}
+
+.el__money{
+    background: url("../img/logo/webmoney.png") 0 24px / 30px no-repeat, url("../img/logo/y_money.png") 0 84px / 30px no-repeat;
 }
 
 footer{
@@ -276,18 +300,13 @@ footer{
     padding: 20px 0 0 0;
 }
 
-.social__item{
-    
-}
-
 .social__link{
     font-size: 36px;
-    color: #4a4a49;
-    transition: all 0.4s  ;
+    transition: all 0.4s ease ;
 }
 
 .social__link:hover{
-    color: #681C23;     
+    color: #edbd6b;
 }
 
 @media (max-width: 967px){
@@ -344,6 +363,7 @@ footer{
     .requisites__item{
         flex: 0 1 auto;
     }
+    
 
     .count__in__total, 
     .count__collected, 

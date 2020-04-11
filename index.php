@@ -58,8 +58,7 @@
                     
                     <div class="count__collected">
                         Собрано, $
-                        <div class="collected" id="collected">
-                            84049 
+                        <div class="collected" id="collected"> 
                         </div>
                     </div>
                     
@@ -67,7 +66,7 @@
                         Собрано
                         <div class="percent" id="percentage__total"></div>
                     </div>
-                    <div class="percent" id="percentage__total"></div>      
+                    <!--<div class="percent" id="percentage__total"></div>-->      
                 </div>
             </div>
             <div class="history">
@@ -159,46 +158,46 @@
                 <div class="requisites__title">Реквизиты для помощи Владу</div> 
                 <div class="requisites__all">
     
-                    <div class="requisites__item">
-                        📞Пополнить БАЛАНС МТС
+                    <div class="requisites__item mts">
+                        Пополнить БАЛАНС МТС
                         +375 (29) 712-30-42 
-                        📞услуга МТС "поделись балансом"
+                        услуга МТС "поделись балансом"
                         *363*375297123042*сумма#вызов
                     </div>
-                    <div class="requisites__item">
-                        💳карта(Euro) Visa МТБанк
+                    <div class="requisites__item mtbank">
+                        карта(Euro) Visa МТБанк
                         4177 5311 0969 0159 до 03/23
                         Имя пользователя: YAUHENI KASPIAROVICH
                     </div>
-                    <div class="requisites__item">
-                        💳карта Visa Беларусбанк
+                    <div class="requisites__item belarusbank">
+                        карта Visa Беларусбанк
                         4255 2003 0976 6954 до 03/22
                         Имя пользователя: TATSIANA KASPIAROVICH
                     </div>
-                    <div class="requisites__item">
-                        💳карта Mastercard МТБанк
+                    <div class="requisites__item mtbank">
+                        карта Mastercard МТБанк
                         5351 0410 8251 3472 до 04/22
                         Имя пользователя: TATSIANA KASPIAROVICH
                     </div>
-                    <div class="requisites__item">
-                        💳карта Web Money
+                    <div class="requisites__item webmoney">
+                        карта Web Money
                         4142 9830 3265 1505 до 08/22
                         Имя пользователя: TATSIANA KASPIAROVICH
                     </div>
-                    <div class="requisites__item">
-                        💳 карта СБЕРБАНК России
+                    <div class="requisites__item sber">
+                        карта СБЕРБАНК России
                         4817 7602 2794 5494 до 12/22
                         Имя пользователя: Дарина Валерьевна
                     </div>
-                    <div class="requisites__item">
-                        ✔️WebMoney: 
+                    <div class="requisites__item el__money">
+                        WebMoney: 
                         Z468146611497 - доллары США
                         E814165086888 - евро
                         R596380694850 - российские рубли
-                        ✔️Яндекс Деньги: 4100 1797 8914 139
+                        Яндекс Деньги: 4100 1797 8914 139
                     </div>
-                    <div class="requisites__item">
-                        📌БЛАГОТВОРИТЕЛЬНЫЕ СЧЕТА в 
+                    <div class="requisites__item belarusbank">
+                        БЛАГОТВОРИТЕЛЬНЫЕ СЧЕТА в 
                         ОАО "Беларусбанк"
                         УНП 100325912
                         МФО(БИК) AKBBBY2X
@@ -218,32 +217,9 @@
                 </div>
                 
             </div>
-            <img src="img/belarusbank.ai" alt="">
         </footer>                
     </div>
     
-    
-     <script>
-var htReq = ('v' == '\v') ? new ActiveXObject ('Microsoft.XMLHTTP') : new XMLHttpRequest ();
- 
-function sendReq ()
-{
-htReq.open ('get', 'script/summ.txt');
-htReq.onreadystatechange = getReq;
-htReq.send (null);
-}
- 
-function getReq ()
-{
-if (htReq.readyState == 4) alert (htReq.responseText); // !!!
-}
- 
- 
-    </script>
-    <button onclick="sendReq ()">Start</button>
-    
-    
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script/slick.min.js"></script>
     <script src="script/script.js"></script>
