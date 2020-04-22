@@ -415,51 +415,10 @@ footer{
     cursor: pointer;
 }
 
-/*
-.modal{
-    position: relative;
-}
-
-.modal__window{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal__img img{
-    width: 320px;
-    
-}
-
-.modal__img img::after{
-    content: "";
-}
-
-.modal__img img:before
-*/
-
-
-#myBtn {
-  background-color: #9C27B0;
-  color: white;
-  padding: 12px 16px;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  width: 180px;
-}
-
 
 .modal {
-    //display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -473,10 +432,10 @@ footer{
 
 .modal-content {
     position: relative;
-    background-color: #E1BEE7;
+    background-color: #edbd6b;
     margin: auto;
     padding: 0;
-    border: 5px solid #7B1FA2;
+    border: 5px solid #1c476a;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -513,7 +472,6 @@ footer{
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #9C27B0;
     color: white;
 }
 
